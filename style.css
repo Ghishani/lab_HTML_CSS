@@ -17,15 +17,49 @@ header nav {
     text-align: right;
 }
 
-#nav_bar_items_top {
+#nav_bar_items_top{
     display: flex;
     justify-content: flex-end;
     gap: 30px;
 }
 
+#nav_bar_items_top a{
+    color: white;
+}
+
 #nav_bar_items_bottom {
     display: flex;
     justify-content: space-between;
+}
+
+#nav_bar_items_bottom a{
+    color: white;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+  }
+
+  .hero button {
+    width: 200px;
+    position: absolute;
+    bottom: 270px;
+    left: 50px;
+  }
+
+.hero img{
+    width: 100%;
+    height: auto;
 }
 
 .explore__container {
@@ -35,9 +69,9 @@ header nav {
 }
 
 .connect{
-    background-color:black;
+    background-color:rgba(37, 32, 32, 0.835);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -53,3 +87,22 @@ h3 {
 form {
     display: flex;
 }
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+.footer__element{
+    display: flex;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,11 @@
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    width: 25%;
+    color: white;
+}
+

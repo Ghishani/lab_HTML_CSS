@@ -9,3 +9,22 @@ h1 {
     color: white;
 }
 
+header nav {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+}
+
+#nav_bar_items_top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#nav_bar_items_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+

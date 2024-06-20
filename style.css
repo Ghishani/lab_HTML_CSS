@@ -28,3 +28,28 @@ header nav {
     justify-content: space-between;
 }
 
+.explore__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.connect{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+}
+
+.connect__form p { 
+    color: white;
+}
+
+form {
+    display: flex;
+}
